@@ -1,6 +1,6 @@
 {
   "name": "@ln1778/hwal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "ISC",
   "description": "A TypeScript/JavaScript API for interacting with the XRP Ledger in Node.js and the browser",
   "files": [
@@ -78,7 +78,6 @@
     "node": ">=10.13.0"
   },
   "react-native": {
-    "ws": "./dist/npm/client/WSWrapper.js",
     "console": "console-browserify",
     "crypto": "react-native-crypto",
     "http": "@tradle/react-native-http",
@@ -90,7 +89,8 @@
     "_stream_duplex": "readable-stream/duplex",
     "_stream_passthrough": "readable-stream/passthrough",
     "stream": "stream-browserify",
-    "vm": "vm-browserify"
+    "vm": "vm-browserify",
+    "ws":"8.4.2"
   },
   "bugs": {
     "url": "https://github.com/XRPLF/xrpl.js/issues"
