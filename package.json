@@ -1,6 +1,6 @@
 {
-  "name": "xrpl",
-  "version": "2.1.1",
+  "name": "@ln1778/hwal",
+  "version": "1.0.0",
   "license": "ISC",
   "description": "A TypeScript/JavaScript API for interacting with the XRP Ledger in Node.js and the browser",
   "files": [
@@ -72,9 +72,8 @@
   "prettier": "@xrplf/prettier-config",
   "repository": {
     "type": "git",
-    "url": "git@github.com:XRPLF/xrpl.js.git"
+    "url": "git+ssh://git@github.com/XRPLF/xrpl.js.git"
   },
-  "readmeFilename": "README.md",
   "engines": {
     "node": ">=10.13.0"
   },
@@ -92,5 +91,10 @@
     "_stream_passthrough": "readable-stream/passthrough",
     "stream": "stream-browserify",
     "vm": "vm-browserify"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/XRPLF/xrpl.js/issues"
+  },
+  "homepage": "https://github.com/XRPLF/xrpl.js#readme",
+  "author": ""
 }
